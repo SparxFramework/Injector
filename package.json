@@ -1,6 +1,6 @@
 {
   "name": "@sparx/injector",
-  "version": "1.5.0",
+  "version": "1.0.0",
   "description": "A dependecy injection library using TypeScript decorators.",
   "main": "lib/index.js",
   "publishConfig": {
