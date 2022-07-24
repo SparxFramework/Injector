@@ -10,7 +10,8 @@
     "start": "ts-node demo/index.ts",
     "build": "rm -rf lib && tsc",
     "lint": "eslint . --ext .ts",
-    "test": "jest"
+    "test": "jest",
+	"changelog": "auto-changelog --template keepachangelog --commit-limit false --hide-credit && git add CHANGELOG.md && git commit -m 'Updated Changelog' && git push"
   },
   "repository": {
     "type": "git",
